@@ -5,7 +5,7 @@ hatena bookmark chrome extention using OAuth.
 Get your consumer key and consumer secret from hatena developer page.  
 http://www.hatena.ne.jp/oauth/develop
 
-Rewrite comsumer_key and consumer_secret in background.js 
+Rewrite comsumer_key and consumer_secret in background.js   
 background.js
 ```javascript
 'consumer_key': 'YOUR CONSUMER KEY',
@@ -14,6 +14,7 @@ background.js
 
 ## Install 
 chrome -> Tools -> Extensions -> check Developer mode -> Load hatena_bookmarker folder  
+
 ![install](https://raw.github.com/wiki/pppurple/hatena_bookmarker/img/import.jpg)
 
 ## Usage
