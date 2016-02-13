@@ -1,0 +1,35 @@
+﻿{
+	"manifest_version": 2,
+	"name": "hatena bookmarker",
+	"version": "0.1.0",
+	"author": ["pppurple"],
+	"description": "Enable to bookmark at hatena",
+	"icons": { "48": "img/fav.png",
+			"128": "img/fav.png" },
+	"background": {
+		"scripts": [
+			"chrome_ex_oauthsimple.js",
+			"chrome_ex_oauth.js",
+			"background.js"
+		]
+	},
+	"content_scripts": [ {
+		"js": [ "pin.js" ],
+		"matches": [ "https://www.hatena.ne.jp/oauth/authorize" ],
+		"run_at": "document_end"
+	} ],
+	"browser_action": {
+		"default_title": "hatena bookmarker",
+		"default_icon": "img/hatebu_icon_off.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs",
+		"https://www.hatena.com/oauth/initiate",
+		"https://www.hatena.ne.jp/oauth/authorize",
+		"https://www.hatena.com/oauth/token",
+		"http://api.b.hatena.ne.jp/1/my/bookmark/*"
+	],
+	"web_accessible_resources": [
+	]
+}
