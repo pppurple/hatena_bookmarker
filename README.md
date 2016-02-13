@@ -6,6 +6,7 @@ Get your consumer key and consumer secret from hatena developer page.
 http://www.hatena.ne.jp/oauth/develop
 
 Rewrite comsumer_key and consumer_secret in background.js   
+
 background.js
 ```javascript
 'consumer_key': 'YOUR CONSUMER KEY',
