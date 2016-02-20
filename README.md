@@ -27,3 +27,9 @@ has token
 
 no token  
 ![install](https://raw.github.com/wiki/pppurple/hatena_bookmarker/img/off.jpg)
+
+success  
+![install](https://raw.github.com/wiki/pppurple/hatena_bookmarker/img/success.jpg)
+
+failed  
+![install](https://raw.github.com/wiki/pppurple/hatena_bookmarker/img/failed.jpg)
