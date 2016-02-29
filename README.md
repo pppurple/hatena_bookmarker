@@ -19,7 +19,7 @@ chrome -> Tools -> Extensions -> check Developer mode -> Load hatena_bookmarker 
 ![install](https://raw.github.com/wiki/pppurple/hatena_bookmarker/img/import.jpg)
 
 ## Usage
-Click heart icon.  
+Click a heart icon.  
 ![install](https://raw.github.com/wiki/pppurple/hatena_bookmarker/img/popup.jpg)
 
 has token  
